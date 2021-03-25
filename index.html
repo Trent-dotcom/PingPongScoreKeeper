@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Score Keeper</title>
+    <link rel="stylesheet" href='style.css'> <!-- linking to my external styleSheet-->
+</head>
+
+<body>
+    <div class="container">
+        <div class="banner">
+            <img src="pong.jpg">
+        </div>
+        <h5 id="h5">Ping Pong Score Keeper</h5>
+        <form action="">
+            <h2>
+                PlayerOne: <h3 id="player1score"></h3>
+            </h2><br>
+            <br>
+            <h2>
+                PlayerTwo: <h3 id="player2score"></h3>
+            </h2><br>
+            <br>
+            <select name="gamePoint" id="gamePoint">
+                <option value="0">0</option>
+                <option value="5">5</option>
+                <option value="10">10</option>
+                <option value="15">15</option>
+                <option value="21">21</option>
+            </select>
+            <button class="plr1">playerOne +1</button><button class='plr2'>PlayerTwo +1</button><button
+                class='plr3'>Reset</button>
+        </form>
+    </div>
+    <script src="js.js"></script> <!-- linking to my external JavaScript-->
+</body>
+
+</html>
